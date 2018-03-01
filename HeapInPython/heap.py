@@ -2,10 +2,7 @@ import heapq
 
 class MaxHeap(object):
     
-    def __init__(self):
-        self._heap = []
-    
-    def __init__(self, vals):
+    def __init__(self, vals=[]):
         self._heap = []
         self._heap[:] = [-val for val in vals ]
         heapq.heapify(self._heap)
@@ -31,10 +28,8 @@ class MaxHeap(object):
             
             
 class MinHeap(object):
-    def __init__(self):
-        self._heap = []
     
-    def __init__(self, vals):
+    def __init__(self, vals=[]):
         self._heap = []
         self._heap[:] = [val for val in vals ]
         heapq.heapify(self._heap)
