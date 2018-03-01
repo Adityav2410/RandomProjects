@@ -57,9 +57,3 @@ class MinHeap(Heap):
         self._heap[:] = [val for val in vals ]
         self.heapify()
         
-    def push(self, val):
-        super(MinHeap,self).push(val)
-    
-    def pop(self):
-        return super(MinHeap, self).pop()
-        
