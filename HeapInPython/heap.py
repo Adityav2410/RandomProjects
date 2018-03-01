@@ -45,6 +45,9 @@ class MaxHeap(Heap):
     def push(self, val):
         super(MaxHeap,self).push(-val)
     
+    def top(self):
+        return -super(MaxHeap,self).top()
+
     def pop(self):
         return -super(MaxHeap,self).pop()
 
