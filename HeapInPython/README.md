@@ -1,5 +1,6 @@
 ## A toy library in Python for MinHeap and MaxHeap
 
+### MaxHeap
 ```
 vals = [2,4,9, 1, 4, 54,5]
 heap = MaxHeap(vals)
@@ -9,11 +10,12 @@ for x in heap:
     print x,
 
 ```
-### Output
+#### Output
 ```
 27 9 5 4 4 2 1
 ```
 
+### MinHeap
 ```
 vals = [2,4,9, 1, 4, 54,5]
 heap = MinHeap(vals)
@@ -23,7 +25,7 @@ for x in heap:
     print x,
 
 ```
-### Output
+#### Output
 ```
 2 4 4 5 9 27 54
 ```
